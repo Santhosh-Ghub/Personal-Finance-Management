@@ -1,0 +1,102 @@
+.logo{
+height: 150px;
+width: 150px;
+border:7px solid wheat;
+}
+nav{
+  background :linear-gradient(to right ,rgb(219, 168, 79),rgb(227, 190, 116)  );
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin :0 auto;
+  border-radius: 20px;
+  
+}
+.title{
+  color: rgb(30, 132, 160);
+  font-size: 4em;
+  font-weight: bolder;
+  padding-bottom: 0.5%;
+  margin-bottom:0 ;
+  margin-top: 2%;
+}
+.titlee{
+  color:rgb(21, 51, 59);
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+.navbar{
+  list-style: none;
+  display: flex;
+  margin:0;
+  padding:0;
+  flex:1;
+  justify-content: center;
+  
+  
+}
+.lii{
+  margin-right: 40px;
+  justify-content: space-between;
+  font-size: 28px;
+  font-weight: bolder;
+  color:  rgb(21, 51, 59);
+  text-decoration: none;
+}
+.button-container{
+  display: flex;
+  gap:20px;
+  margin-left:0%;
+  padding-left: 0%;
+}
+.loginB{
+  background-color: rgb(126, 205, 226) ;
+  color:rgb(21, 51, 59);
+  font-weight: bolder;
+  border:none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.signupB{
+  background-color: rgb(21, 51, 59) ;
+  color:rgb(126, 205, 226);
+  font-weight: bolder;
+  width: 80px;
+  height: 40px;
+  border:none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+.navbar li:hover {
+   
+  color:wheat; 
+}
+nav button:hover{
+  background-color: wheat;
+  color:rgb(30, 132, 160);
+
+}
+.logout{
+
+  background-color: rgb(107, 12, 7) ;
+  color:rgb(218, 179, 174);
+  font-weight: bolder;
+  font-size: larger;
+  width: 100px;
+  height: 40px;
+  border:none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+footer p{
+  color :rgb(191, 170, 132)
+}

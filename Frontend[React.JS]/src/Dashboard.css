@@ -1,0 +1,50 @@
+.dashboard{
+  background-color: rgb(219, 168, 79);
+  width: 90%;
+  padding:20px;
+  margin:0 auto; 
+  border-radius: 20px;
+  margin-top: 30px;
+  height: 100%;
+  
+}
+.dashboard h1,h2{
+  font-size: 3em;
+  color: rgb(21, 51, 59);
+}  
+.dashboard label{
+  color: rgb(21, 51, 59);
+  font-weight: bolder;
+  font-size: 2em;
+  margin-bottom: 2vh;
+  
+}
+.dashboard input,select{
+  margin-left: 30px;
+  margin-right: 30px;
+  width:25%;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 3%;
+  background-color:  rgb(240, 219, 164);
+  font-size: 1.5em;
+  color: rgb(21, 51, 59) ;
+  font-weight: bold;
+  
+}
+.date-select{
+  margin: 8%;
+}
+.error{
+  color: rgb(107, 12, 7) ;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.chart-pie{
+  width: 50%;
+  height: 50%;
+  margin:0 auto;
+  font-weight: bolder;
+  
+}

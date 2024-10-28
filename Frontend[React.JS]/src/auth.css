@@ -1,0 +1,92 @@
+.login,.signup,.add-transaction{
+  background-color: rgb(219, 168, 79);
+  width: 60%;
+  padding:20px;
+  margin:0 auto; 
+  border-radius: 20px;
+  margin-top: 30px;
+  height: 50vh;
+  
+}
+.signup{
+  height: 60vh;
+}
+.login h1,.signup h1{
+  font-size: 3em;
+  color: rgb(21, 51, 59);
+
+}
+.login label,.signup label{
+  color: rgb(21, 51, 59);
+  display: block;
+  font-weight: bolder;
+  font-size: 2em;
+  margin-bottom: 2vh;
+  
+}
+.loginBu{
+  background-color: rgb(126, 205, 226) ;
+  color:rgb(21, 51, 59);
+  font-weight: bolder;
+  font-size: 1.5em;
+  border:none;
+  width: 40vh;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  cursor: pointer;
+  margin-left: 21%;
+}
+.loginBu:hover{
+  background-color: rgb(21, 51, 59);
+  color: rgb(126, 205, 226);
+}
+
+.login input ,.signup input{
+  width: 50%; 
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 20px;
+  background-color:  rgb(240, 219, 164); 
+  color: rgb(59, 77, 82) ; 
+  font-size: 0.75em;
+  border: none;
+  cursor: pointer;
+  outline: rgb(214, 162, 76);
+  font-weight: bold;
+ 
+}
+
+.signupBu,.log-in{
+
+  background-color: rgb(219, 168, 79);
+  color: rgb(107, 12, 7) ;
+  font-weight: bolder;
+  width: 80px;
+  height: 40px;
+  border:none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+  
+
+}
+.signB{
+  background-color: rgb(21, 51, 59) ;
+  color:rgb(126, 205, 226);
+  font-weight: bolder;
+  font-size: 1em;;
+  width: 40vh;
+  height:50px;
+  border:none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 21%;
+}
+.inp{
+  margin-left: 12%;
+}
+.inpu{
+ margin-left: 2%;
+}

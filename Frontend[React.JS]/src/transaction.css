@@ -1,0 +1,151 @@
+.transaction button{
+  background-color: rgb(21 , 51, 59) ;
+  color:white;
+  font-weight: bold;
+  font-size: 0.5em;
+  border:none;
+  width: 24vh;
+  height: 70px;
+  border-radius: 15px;
+  margin-bottom: 5%;
+  cursor: pointer;
+  margin-left: 70%;
+
+}
+
+.transaction-header h1{
+  margin:0 auto;
+}
+.add-transaction{
+  background-color: rgb(219, 168, 79);
+  width: 60%;
+  padding:20px;
+  margin:0 auto; 
+  border-radius: 20px;
+  margin-top: 30px;
+  height: 100%;
+}
+.add-transaction label{
+  display: block; 
+  margin-bottom: 3%;
+  color: rgb(21 , 51, 59)  ;
+  font-weight: bolder;
+  font-size: 2.5em;
+  text-align: left;
+  margin-left: 7%;
+  
+}
+.add-transaction input,
+.add-transaction select {
+  width: 80%; 
+  padding: 15px;
+  font-weight: bold;
+  font-size: 0.6em;
+  border-radius: 5px;
+  border: none;
+  margin: 0;
+  display: block;
+  background-color:  rgb(240, 219, 164); 
+  color:  rgb(59, 77, 82);
+}
+.add-transaction select{
+  width: 81%;
+  
+}
+.add-transaction button {
+  width: 50%; 
+  padding: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: rgb(21 , 51, 59);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.success {
+  color: green;
+  font-weight: bold;
+}
+.error{
+  color: rgb(107, 12, 7) ;
+  font-size: 1em;
+  font-weight: bolder;
+}
+.transaction,.add-transaction h1{
+  font-size: 3em;
+  color: rgb(21, 51, 59);
+}  
+.transaction{
+  background-color: rgb(219, 168, 79);
+  width: 90%;
+  padding:20px;
+  margin:0 auto; 
+  border-radius: 20px;
+  margin-top: 30px;
+  height: 100%;
+  
+  
+}
+.add-transaction .list{
+
+  background-color: rgb(219, 168, 79);
+  color: rgb(107, 12, 7) ;
+  font-weight: bolder;
+  width: 80px;
+  height: 40px;
+  border:none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+  white-space: nowrap;
+  width: auto;
+
+}
+.each-transaction{
+  background-color: rgb(240, 219, 164);
+  font-size: 0.9em;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  list-style:none ;
+  margin-left: 0%;
+  padding-left: 0%;
+  padding-bottom: 0%;
+
+}
+.each-transaction strong{
+  font-size: 1.25em;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.each-transaction button{
+  margin-left: 100px;
+  font-size: 30px;
+  
+}
+.butt{
+ display: flex; 
+ align-items: center;
+ padding-bottom: 0%;
+ 
+}
+.del-button{
+  margin-top:4%;
+
+  
+}
+.entry-data{
+  margin-left: 0;
+  padding-left:0  ;
+  text-align: left;
+}
+.des{
+  text-align: left;
+  margin-left: 100px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+ 
